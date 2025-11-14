@@ -1,0 +1,116 @@
+[2025-10-14 04:44:27] Upload script started
+[2025-10-14 04:44:27] File moved successfully: doc_68edb90b3df0a.png
+[2025-10-14 04:44:27] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68edb90b3df0a.png
+[2025-10-14 04:44:27] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68edb90b3df0a.png" stdout 2>&1
+[2025-10-14 04:46:31] Upload script started
+[2025-10-14 04:46:31] File moved successfully: doc_68edb9873dc12.png
+[2025-10-14 04:46:31] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68edb9873dc12.png
+[2025-10-14 04:46:31] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68edb9873dc12.png" stdout 2>&1
+[2025-10-14 04:46:44] OCR output length: 610
+[2025-10-14 04:46:47] Upload success - ID 1
+[2025-10-15 03:01:03] Upload script started
+[2025-10-15 03:01:03] File moved successfully: doc_68eef24f07377.png
+[2025-10-15 03:01:03] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68eef24f07377.png
+[2025-10-15 03:01:03] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68eef24f07377.png" stdout 2>&1
+[2025-10-15 03:01:15] OCR output length: 1367
+[2025-10-15 03:01:15] Upload success - ID 2
+[2025-10-23 14:51:22] Upload script started
+[2025-10-23 14:51:22] File moved successfully: doc_68fa24ca77d3d.png
+[2025-10-23 14:51:22] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fa24ca77d3d.png
+[2025-10-23 14:51:22] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fa24ca77d3d.png" stdout 2>&1
+[2025-10-23 14:51:27] OCR output length: 1367
+[2025-10-23 14:51:28] Upload success - ID 3
+[2025-10-24 01:11:57] Upload script started
+[2025-10-24 01:11:57] File moved successfully: doc_68fab63d859f4.png
+[2025-10-24 01:11:57] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab63d859f4.png
+[2025-10-24 01:11:57] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab63d859f4.png" stdout 2>&1
+[2025-10-24 01:12:20] OCR output length: 1303
+[2025-10-24 01:12:21] Upload success - ID 4
+[2025-10-24 01:18:59] Upload script started
+[2025-10-24 01:18:59] File moved successfully: doc_68fab7e34b6d8.png
+[2025-10-24 01:18:59] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab7e34b6d8.png
+[2025-10-24 01:18:59] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab7e34b6d8.png" stdout 2>&1
+[2025-10-24 01:20:06] Upload script started
+[2025-10-24 01:20:06] File moved successfully: doc_68fab82692eca.png
+[2025-10-24 01:20:06] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab82692eca.png
+[2025-10-24 01:20:06] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab82692eca.png" stdout 2>&1
+[2025-10-24 01:20:09] OCR output length: 1367
+[2025-10-24 01:20:09] Upload success - ID 5
+[2025-10-24 01:21:08] Upload script started
+[2025-10-24 01:21:08] File moved successfully: doc_68fab864deeba.png
+[2025-10-24 01:21:08] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab864deeba.png
+[2025-10-24 01:21:08] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab864deeba.png" stdout 2>&1
+[2025-10-24 01:21:11] OCR output length: 1367
+[2025-10-24 01:21:11] Upload success - ID 6
+[2025-10-24 01:22:13] Upload script started
+[2025-10-24 01:22:13] File moved successfully: doc_68fab8a584285.png
+[2025-10-24 01:22:13] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab8a584285.png
+[2025-10-24 01:22:13] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab8a584285.png" stdout 2>&1
+[2025-10-24 01:22:18] OCR output length: 1303
+[2025-10-24 01:22:20] Upload success - ID 7
+[2025-10-24 01:22:48] Upload script started
+[2025-10-24 01:22:48] File moved successfully: doc_68fab8c87567f.png
+[2025-10-24 01:22:48] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab8c87567f.png
+[2025-10-24 01:22:48] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab8c87567f.png" stdout 2>&1
+[2025-10-24 01:22:52] OCR output length: 1303
+[2025-10-24 01:22:54] Upload success - ID 8
+[2025-10-24 01:23:57] Upload script started
+[2025-10-24 01:23:58] File moved successfully: doc_68fab90e48d02.png
+[2025-10-24 01:23:58] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab90e48d02.png
+[2025-10-24 01:23:58] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fab90e48d02.png" stdout 2>&1
+[2025-10-24 01:24:25] OCR output length: 1367
+[2025-10-24 01:24:26] Upload success - ID 9
+[2025-10-24 01:28:58] Upload script started
+[2025-10-24 01:28:58] File moved successfully: doc_68faba3a9e864.png
+[2025-10-24 01:28:58] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68faba3a9e864.png
+[2025-10-24 01:28:58] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68faba3a9e864.png" stdout 2>&1
+[2025-10-24 01:29:16] OCR output length: 1367
+[2025-10-24 01:29:16] Cleaned OCR text length: 1301
+[2025-10-24 01:29:16] Upload success - ID 10
+[2025-10-24 01:34:24] Upload script started
+[2025-10-24 01:34:24] File moved successfully: doc_68fabb80eee23.png
+[2025-10-24 01:34:25] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fabb80eee23.png
+[2025-10-24 01:34:25] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fabb80eee23.png" stdout 2>&1
+[2025-10-24 01:34:47] OCR output length: 1367
+[2025-10-24 01:34:47] Cleaned OCR text length: 1296
+[2025-10-24 01:34:48] Upload success - ID 11
+[2025-10-24 01:40:59] Upload script started
+[2025-10-24 01:40:59] File moved successfully: doc_68fabd0b7d919.png
+[2025-10-24 01:40:59] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fabd0b7d919.png
+[2025-10-24 01:40:59] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fabd0b7d919.png" stdout 2>&1
+[2025-10-24 01:41:07] OCR output length: 1367
+[2025-10-24 01:41:07] Cleaned OCR text length: 1296
+[2025-10-24 01:41:08] Upload success - ID 12
+[2025-10-24 01:55:06] Upload script started
+[2025-10-24 01:55:06] File moved successfully: doc_68fac05ad264b.png
+[2025-10-24 01:55:06] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fac05ad264b.png
+[2025-10-24 01:55:06] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fac05ad264b.png" stdout 2>&1
+[2025-10-24 01:55:21] OCR output length: 1367
+[2025-10-24 01:55:21] Cleaned OCR text length: 1296
+[2025-10-24 01:55:21] Upload success - ID 13
+[2025-10-24 01:56:26] Upload script started
+[2025-10-24 01:56:26] File moved successfully: doc_68fac0aa42fd0.png
+[2025-10-24 01:56:26] Starting OCR on C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fac0aa42fd0.png
+[2025-10-24 01:56:26] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\Users\valentine ezeani\Desktop\Scan System\api/../uploads/doc_68fac0aa42fd0.png" stdout 2>&1
+[2025-10-24 01:56:43] OCR output length: 1367
+[2025-10-24 01:56:43] Cleaned OCR text length: 1296
+[2025-10-24 01:56:43] Upload success - ID 1
+[2025-10-24 03:59:46] Upload script started
+[2025-10-24 04:07:56] Upload script started
+[2025-10-24 04:07:56] File moved successfully: doc_68fadf7cc4cd0.png
+[2025-10-24 04:07:56] Starting OCR on C:\xampp\htdocs\ScanSystem\api/../uploads/doc_68fadf7cc4cd0.png
+[2025-10-24 04:07:56] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\xampp\htdocs\ScanSystem\api/../uploads/doc_68fadf7cc4cd0.png" stdout 2>&1
+[2025-10-24 04:10:46] Upload script started
+[2025-10-24 04:10:46] File moved successfully: doc_68fae026bed82.png
+[2025-10-24 04:10:46] Starting OCR on C:\xampp\htdocs\ScanSystem\api/../uploads/doc_68fae026bed82.png
+[2025-10-24 04:10:46] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\xampp\htdocs\ScanSystem\api/../uploads/doc_68fae026bed82.png" stdout 2>&1
+[2025-10-24 04:10:52] OCR output length: 1367
+[2025-10-24 04:10:53] Cleaned OCR text length: 1296
+[2025-10-24 04:10:53] Upload success - ID 1
+[2025-10-24 04:12:42] Upload script started
+[2025-10-24 04:12:42] File moved successfully: doc_68fae09a0703b.png
+[2025-10-24 04:12:42] Starting OCR on C:\xampp\htdocs\ScanSystem\api/../uploads/doc_68fae09a0703b.png
+[2025-10-24 04:12:42] Running OCR command: "C:\Program Files\Tesseract-OCR\tesseract.exe" "C:\xampp\htdocs\ScanSystem\api/../uploads/doc_68fae09a0703b.png" stdout 2>&1
+[2025-10-24 04:12:45] OCR output length: 1367
+[2025-10-24 04:12:45] Cleaned OCR text length: 1296
+[2025-10-24 04:12:45] Upload success - ID 2

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OCR Document Digitizer</title>
+    <style>
+        body {
+            font-family: system-ui, Segoe UI, Roboto, Arial;
+            margin: 20px;
+            background: #f5f7fb;
+        }
+        
+        .card {
+            background: #fff;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+            margin-bottom: 16px;
+        }
+        
+        input[type=text],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        
+        button {
+            padding: 10px 14px;
+            border-radius: 6px;
+            border: none;
+            background: #0b84ff;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border: 3px solid #ccc;
+            border-top-color: #0b84ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        pre {
+            white-space: pre-wrap;
+            background: #f8f8f8;
+            padding: 8px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2>Upload document (Images Only)</h2>
+        <form id="uploadForm">
+            <input type="text" name="title" placeholder="Title" required />
+            <textarea name="description" placeholder="Description" rows="3"></textarea>
+            <input type="file" name="file" accept="image/*,.pdf" required />
+            <div style="margin-top:10px">
+                <button type="submit">Upload & Extract Text</button>
+            </div>
+            <div id="uploadMsg" style="margin-top:10px;font-weight:500;"></div>
+        </form>
+    </div>
+
+    <div id="resultArea"></div>
+
+    <script>
+        const baseApi = '/ScanSystem/api';
+        let uploadedFile = null;
+        let uploadedId = null;
+
+        document.getElementById('uploadForm').addEventListener('submit', async(e) => {
+            e.preventDefault();
+            const f = new FormData(e.target);
+            const status = document.getElementById('uploadMsg');
+            const resultArea = document.getElementById('resultArea');
+
+            resultArea.innerHTML = '';
+            status.innerHTML = 'Uploading... <span class="spinner"></span>';
+
+            try {
+                const res = await fetch(baseApi + '/upload.php', {
+                    method: 'POST',
+                    body: f
+                });
+                const json = await res.json();
+
+                if (json.success) {
+                    uploadedFile = json.preview_url.split('/').pop(); // e.g. doc_abc.png
+                    uploadedId = json.id;
+
+                    status.innerHTML = 'Processing OCR... <span class="spinner"></span>';
+
+                    setTimeout(async() => {
+                        status.innerHTML = '✅ Upload & OCR Complete!';
+                        const docRes = await fetch(baseApi + '/document.php?id=' + json.id);
+                        const docJson = await docRes.json();
+
+                        if (docJson.success) {
+                            const doc = docJson.document;
+                            resultArea.innerHTML =
+                                '<div class="card">' +
+                                '<h3>' + escapeHtml(doc.title) + '</h3>' +
+                                '<p>' + escapeHtml(doc.description || '') + '</p>' +
+                                '<p><a href="' + doc.file_url + '" target="_blank">📄 View Uploaded File</a></p>' +
+                                '<h4>Extracted Text:</h4>' +
+                                '<pre>' + escapeHtml(doc.extracted_text || 'No text detected') + '</pre>' +
+                                '</div>';
+                        } else {
+                            resultArea.innerHTML = '<div class="card">❌ Unable to retrieve extracted text.</div>';
+                        }
+                    }, 2000);
+                } else {
+                    status.textContent = '❌ Error: ' + (json.error || 'Unknown');
+                }
+            } catch (err) {
+                status.textContent = '❌ Upload failed: ' + err.message;
+            }
+        });
+
+        // Delete uploaded file + DB record when user leaves or refreshes
+        window.addEventListener('beforeunload', () => {
+            if (uploadedFile && uploadedId) {
+                const url = baseApi + '/delete_temp.php?file=' + encodeURIComponent(uploadedFile) + '&id=' + uploadedId;
+                navigator.sendBeacon(url);
+            }
+        });
+
+        // HTML escape helper
+        function escapeHtml(s) {
+            return String(s).replace(/[&<>"']/g, m => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            }[m]));
+        }
+    </script>
+
+</body>
+
+</html>
+
+</html>
